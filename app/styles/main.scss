@@ -1,0 +1,259 @@
+// bower:scss
+// endbower
+
+$brand-color : #594B6C;
+$text-color  : #645874;
+
+* {
+    box-sizing: border-box;
+}
+
+html, .pure-g [class *= "pure-u"] {
+    font-family: "Merriweather", Georgia, Times, "Times New Roman", serif;
+    font-weight: 300;
+    h1, h2, .btn, .page-header .login {
+        font-family: "Raleway", Helvetica, sans-serif;
+    }
+}
+
+body {
+    background: #F4F4F4;
+    color: $brand-color;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 28px;
+    line-height: 35px;
+    letter-spacing: 5px;
+    padding: 30px 0;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-weight: 24px;
+    letter-spacing: 4px;
+}
+
+p,li {
+    line-height: 26px;
+}
+
+.unstyled {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    border: 2px solid $brand-color;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 8px 35px;
+    border-radius: 30px;
+    font-weight: 400;
+    display: inline-block;
+    transition: all 0.07s linear;
+
+    &:hover {
+        padding-left: 40px;
+        padding-right: 40px;
+        background: transparentize($brand-color,0.94);
+    }
+}
+
+// Typo for bigger screens
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 38px;
+        line-height: 45px;
+    }
+}
+
+.the-rights {
+    margin: 0 auto;
+}
+
+.page-header {
+
+    text-align: center;
+    background: url(../images/header.jpg) no-repeat center $brand-color;
+    color: #FFF;
+    padding: 20px 15px 60px 15px;
+
+    h1 {
+        margin: 0;
+        max-width: 790px;
+        margin: 0 auto;
+        color: #FFF;
+    }
+
+    p {
+        font-style: italic;
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .login {
+        color: #FFF;
+        text-transform: uppercase;
+        font-size: 14px;
+        letter-spacing: 2px;
+        position: absolute;
+        top: 25px;
+        right: 35px;
+        border-color: transparent;
+
+        &:hover {
+            border-color: #FFF;
+            padding: 8px 35px;
+        }
+
+        img {
+            vertical-align: middle;
+            margin: -4px 8px 0 0 ;
+        }
+    }
+}
+
+.login-blocks {
+    max-width: 800px;
+    margin: -40px auto 0 auto;
+}
+
+.login-block {
+    background: #FFF;
+    padding: 30px 30px 50px 30px;
+    text-align: center;
+    margin: 0 10px 10px 10px;
+    p {
+        color: $text-color;
+        margin-bottom: 25px;
+    }
+    img {
+        padding: 10px 0;
+    }
+}
+
+.login {
+    text-align: center;
+    a {
+        font-style: italic;
+        text-decoration: underline;
+    }
+}
+
+// Features
+
+.features {
+    max-width: 910px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+
+    .pure-g {
+        padding: 0 5px;
+    }
+
+    [class*="pure-u"] {
+        padding: 0 10px;
+    }
+}
+
+.circle {
+    position: relative;
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+    padding-top: 100%;
+    background-color: #FFF;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid rgba(94,72,118,0.46);
+}
+
+    .circle-mobile          { background-image: url(../images/icon-mobile.png); }
+    .circle-administration  { background-image: url(../images/icon-administration.png); }
+    .circle-acoustic        { background-image: url(../images/icon-acoustic.png); }
+    .circle-data            { background-image: url(../images/icon-data.png); }
+
+@media (min-width: 768px) {
+    
+    .page-header {
+        padding: 110px 0 220px 0;
+    }
+
+    .login-blocks {
+        margin-top: -150px;
+    }
+
+    .features [class*="pure-u"] {
+        padding: 0 15px;
+    }
+
+    .features {
+        padding: 40px 0 80px 0;
+    }
+
+    .features .pure-g {
+        padding: 20px 0 0 0;
+    }
+
+}
+
+
+footer {
+
+    background: $brand-color;
+    color: #FFF;
+    text-align: center;
+    padding: 25px 15px;
+
+    .pure-g {
+        max-width: 770px;
+        margin: 0 auto;
+    }
+
+    img {
+        vertical-align: top;
+        margin-right: 5px;
+    }
+
+    @media (min-width: 768px) {
+        
+        padding: 40px 0;
+        text-align: left;
+
+        .about {
+            padding-right: 80px;
+        }
+    }
+    address {
+        padding: 30px 0;
+    }
+}
+
+.logos {
+    text-align: center;
+    margin-top: 40px;
+    img {
+        vertical-align: middle;
+        margin: 0 10px;
+        @media (min-width: 768px) {
+            margin: 0 25px;
+        } 
+    }
+}
+
+.about li {
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 10px;
+}
