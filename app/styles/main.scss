@@ -104,12 +104,13 @@ a {
     .login {
         color: #FFF;
         text-transform: uppercase;
-        font-size: 14px;
+        font-size: 12px;
         letter-spacing: 2px;
         position: absolute;
-        top: 25px;
-        right: 35px;
+        top: 15px;
+        right: 0px;
         border-color: transparent;
+        padding: 8px 15px;
 
         &:hover {
             border-color: #FFF;
@@ -119,6 +120,13 @@ a {
         img {
             vertical-align: middle;
             margin: -4px 8px 0 0 ;
+        }
+
+        @media (min-width: 768px) {
+            padding: 8px 35px;
+            right: 35px;
+            top: 25px;
+            font-size: 14px;
         }
     }
 }
