@@ -314,9 +314,10 @@ module.exports = function (grunt) {
                     cwd: '<%= config.app %>',
                     dest: '<%= config.dist %>',
                     src: [
-                        '*.{ico,png,txt}',
+                        '*.{ico,png,txt,svg}',
                         '.htaccess',
                         'images/{,*/}*.webp',
+                        'images/{,*/}*.svg',
                         '{,*/}*.html',
                         'styles/fonts/{,*/}*.*'
                     ]
@@ -360,8 +361,7 @@ module.exports = function (grunt) {
             dist: [
                 'sass',
                 'copy:styles',
-                'imagemin',
-                'svgmin'
+                'imagemin'
             ]
         }
     });

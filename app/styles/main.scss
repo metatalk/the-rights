@@ -49,10 +49,12 @@ p,li {
 
 a {
     text-decoration: none;
+    color: $brand-color;
 }
 
 .btn {
     border: 2px solid $brand-color;
+    color: $brand-color;
     text-transform: uppercase;
     letter-spacing: 2px;
     padding: 8px 35px;
@@ -264,4 +266,8 @@ footer {
     font-size: 12px;
     line-height: 18px;
     margin-bottom: 10px;
+}
+
+.about ul {
+    padding-left: 16px;
 }
