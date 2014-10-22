@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="66px" height="66px" viewBox="0 0 66 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.4 (8053) - http://www.bohemiancoding.com/sketch -->
+    <title>pie_chart_3_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-1027.000000, -1165.000000)" fill="#594B6C" opacity="0.900711287">
+            <g id="Features" sketch:type="MSLayerGroup" transform="translate(282.000000, 1037.000000)">
+                <path d="M783.606796,128.476578 C799.16133,131.139165 811,144.686306 811,161 C811,168.088112 808.76449,174.65367 804.96116,180.031869 L800.929553,176.000262 C803.833553,171.580985 805.393204,166.410718 805.393204,161 C805.393204,147.654223 795.912112,136.726097 783.606796,134.17949 L783.606796,128.476578 L783.606796,128.476578 Z M778,161 L778,128 C759.774549,128 745,142.774549 745,161 C745,179.225451 759.774549,194 778,194 C787.112806,194 795.362806,190.306243 801.334524,184.334524 L778,161 L778,161 Z" id="pie_chart_3_icon" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>
