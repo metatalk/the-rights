@@ -271,3 +271,48 @@ footer {
 .about ul {
     padding-left: 16px;
 }
+
+// MIA BANNER
+
+.mias-banner {
+    background: #FFF;
+    text-align: center;
+    padding: 20px;
+    img {
+        vertical-align: middle;
+        aside & {
+            margin-left: 5px;
+        }
+    }
+    h1 {
+        margin: 0;
+        font-size: 36px;
+        padding-bottom: 10px;
+    }
+
+    @media (min-width: 768px) {
+        text-align: left;
+        padding-bottom: 40px;
+
+        > .pure-g {
+            margin: 0 auto;
+            max-width: 1024px;
+        }
+        .mias-logo {
+            padding: 35px 30px 0 0;
+            width: 90%;
+        }
+        .description {
+            box-sizing: border-box;
+            padding: 10px 40px 10px 0;
+            margin: 0;
+        }
+        aside {
+            padding-left: 50px;
+            p {
+                margin: 0;
+                padding-top: 10px;
+            }
+        }
+    }
+}
