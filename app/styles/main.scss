@@ -335,6 +335,12 @@ footer {
 .press-block {
     max-width: 980px;
     margin-bottom: 20px;
+    img {
+        max-width: 160px;
+    }
+    p {
+        min-height: 85px;
+    }
 }
 
 @import 'forms';
